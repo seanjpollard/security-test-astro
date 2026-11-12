@@ -13383,8 +13383,8 @@ packages:
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  isomorphic-git@1.37.6:
-    resolution: {integrity: sha512-qr1NFCPsVTZ6YGqTXw0CzamnsHyH9QQ1OTEfeXIweSljRUMzuHFCJdUn0wc6OcjtTDns6knxjPb7N6LmJeftOA==}
+  isomorphic-git@1.44.12:
+    resolution: {integrity: sha512-Qfu5/YMcN1YyGqT3ZUmgFIlbj/bFwbwMbF4zlitrRGGyujyqtgMCOTy07mfca/iugH1ECpF6rlebFDceRs+MNg==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -18034,7 +18034,7 @@ snapshots:
   '@cloudflare/shell@0.3.6(@modelcontextprotocol/sdk@1.29.0)(zod@4.3.6)':
     dependencies:
       '@cloudflare/codemode': 0.3.4(@modelcontextprotocol/sdk@1.29.0)(zod@4.3.6)
-      isomorphic-git: 1.37.6
+      isomorphic-git: 1.44.12
     transitivePeerDependencies:
       - '@modelcontextprotocol/sdk'
       - '@tanstack/ai'
@@ -24031,7 +24031,7 @@ snapshots:
 
   isexe@2.0.0: {}
 
-  isomorphic-git@1.37.6:
+  isomorphic-git@1.44.12:
     dependencies:
       async-lock: 1.4.1
       clean-git-ref: 2.0.1
@@ -24041,7 +24041,6 @@ snapshots:
       minimisted: 2.0.1
       pako: 1.0.11
       pify: 4.0.1
-      readable-stream: 4.7.0
       sha.js: 2.4.12
       simple-get: 4.0.1
 
