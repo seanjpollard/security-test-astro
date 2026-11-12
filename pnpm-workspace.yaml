@@ -81,3 +81,5 @@ patchedDependencies:
 
 # TODO: enable when viable
 # trustPolicy: 'no-downgrade'
+overrides:
+  'svgo@3.3.5': '4.1.0' # lockwright: GHSA-2p49-hgcm-8545, GHSA-4vpr-x523-8j87, GHSA-w27v-7q3p-w38r
