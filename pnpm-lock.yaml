@@ -11934,11 +11934,6 @@ packages:
   cssdb@8.8.0:
     resolution: {integrity: sha512-QbLeyz2Bgso1iRlh7IpWk6OKa3lLNGXsujVjDMPl9rOZpxKeiG69icLpbLCFxeURwmcdIfZqQyhlooKJYM4f8Q==}
 
-  cssesc@3.0.0:
-    resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
-    engines: {node: '>=4'}
-    hasBin: true
-
   cssfilter@0.0.10:
     resolution: {integrity: sha512-FAaLDaplstoRsDR8XGYH51znUN0UY7nMc6Z9/fvE8EXGwvJE9hu7W2vHwx1+bd6gCYnln9nLbzxFTrcO9YQDZw==}
 
@@ -14880,8 +14875,8 @@ packages:
     peerDependencies:
       postcss: ^8.4
 
-  postcss-selector-parser@7.1.1:
-    resolution: {integrity: sha512-orRsuYpJVw8LdAwqqLykBj9ecS5/cRHlI5+nvTo8LcCKmzDmqVORXtOIYEEQuL9D4BxtA1lm5isAqzQZCoQ6Eg==}
+  postcss-selector-parser@7.1.8:
+    resolution: {integrity: sha512-4CrD1SdKVx3bWOXG6Mh5YI9s/NTEgMq4T+O0T4wj2JqGhxbi8BAPc8BJYDVrVOqXBbWGX7YMO3f3ldOSscdCew==}
     engines: {node: '>=4'}
 
   postcss-value-parser@4.2.0:
@@ -18146,9 +18141,9 @@ snapshots:
 
   '@csstools/postcss-cascade-layers@6.0.0(postcss@8.5.12)':
     dependencies:
-      '@csstools/selector-specificity': 6.0.0(postcss-selector-parser@7.1.1)
+      '@csstools/selector-specificity': 6.0.0(postcss-selector-parser@7.1.8)
       postcss: 8.5.12
-      postcss-selector-parser: 7.1.1
+      postcss-selector-parser: 7.1.8
 
   '@csstools/postcss-color-function-display-p3-linear@2.0.2(postcss@8.5.12)':
     dependencies:
@@ -18259,9 +18254,9 @@ snapshots:
 
   '@csstools/postcss-is-pseudo-class@6.0.0(postcss@8.5.12)':
     dependencies:
-      '@csstools/selector-specificity': 6.0.0(postcss-selector-parser@7.1.1)
+      '@csstools/selector-specificity': 6.0.0(postcss-selector-parser@7.1.8)
       postcss: 8.5.12
-      postcss-selector-parser: 7.1.1
+      postcss-selector-parser: 7.1.8
 
   '@csstools/postcss-light-dark-function@3.0.0(postcss@8.5.12)':
     dependencies:
@@ -18369,7 +18364,7 @@ snapshots:
   '@csstools/postcss-scope-pseudo-class@5.0.0(postcss@8.5.12)':
     dependencies:
       postcss: 8.5.12
-      postcss-selector-parser: 7.1.1
+      postcss-selector-parser: 7.1.8
 
   '@csstools/postcss-sign-functions@2.0.1(postcss@8.5.12)':
     dependencies:
@@ -18413,13 +18408,13 @@ snapshots:
     dependencies:
       postcss: 8.5.12
 
-  '@csstools/selector-resolve-nested@4.0.0(postcss-selector-parser@7.1.1)':
+  '@csstools/selector-resolve-nested@4.0.0(postcss-selector-parser@7.1.8)':
     dependencies:
-      postcss-selector-parser: 7.1.1
+      postcss-selector-parser: 7.1.8
 
-  '@csstools/selector-specificity@6.0.0(postcss-selector-parser@7.1.1)':
+  '@csstools/selector-specificity@6.0.0(postcss-selector-parser@7.1.8)':
     dependencies:
-      postcss-selector-parser: 7.1.1
+      postcss-selector-parser: 7.1.8
 
   '@csstools/utilities@3.0.0(postcss@8.5.12)':
     dependencies:
@@ -22384,13 +22379,13 @@ snapshots:
   css-blank-pseudo@8.0.1(postcss@8.5.12):
     dependencies:
       postcss: 8.5.12
-      postcss-selector-parser: 7.1.1
+      postcss-selector-parser: 7.1.8
 
   css-has-pseudo@8.0.0(postcss@8.5.12):
     dependencies:
-      '@csstools/selector-specificity': 6.0.0(postcss-selector-parser@7.1.1)
+      '@csstools/selector-specificity': 6.0.0(postcss-selector-parser@7.1.8)
       postcss: 8.5.12
-      postcss-selector-parser: 7.1.1
+      postcss-selector-parser: 7.1.8
       postcss-value-parser: 4.2.0
 
   css-prefers-color-scheme@11.0.0(postcss@8.5.12):
@@ -22427,8 +22422,6 @@ snapshots:
   css-what@6.2.2: {}
 
   cssdb@8.8.0: {}
-
-  cssesc@3.0.0: {}
 
   cssfilter@0.0.10: {}
 
@@ -25709,7 +25702,7 @@ snapshots:
   postcss-attribute-case-insensitive@8.0.0(postcss@8.5.12):
     dependencies:
       postcss: 8.5.12
-      postcss-selector-parser: 7.1.1
+      postcss-selector-parser: 7.1.8
 
   postcss-clamp@4.1.0(postcss@8.5.12):
     dependencies:
@@ -25760,12 +25753,12 @@ snapshots:
       '@csstools/css-parser-algorithms': 4.0.0(@csstools/css-tokenizer@4.0.0)
       '@csstools/css-tokenizer': 4.0.0
       postcss: 8.5.12
-      postcss-selector-parser: 7.1.1
+      postcss-selector-parser: 7.1.8
 
   postcss-dir-pseudo-class@10.0.0(postcss@8.5.12):
     dependencies:
       postcss: 8.5.12
-      postcss-selector-parser: 7.1.1
+      postcss-selector-parser: 7.1.8
 
   postcss-double-position-gradients@7.0.0(postcss@8.5.12):
     dependencies:
@@ -25777,12 +25770,12 @@ snapshots:
   postcss-focus-visible@11.0.0(postcss@8.5.12):
     dependencies:
       postcss: 8.5.12
-      postcss-selector-parser: 7.1.1
+      postcss-selector-parser: 7.1.8
 
   postcss-focus-within@10.0.0(postcss@8.5.12):
     dependencies:
       postcss: 8.5.12
-      postcss-selector-parser: 7.1.1
+      postcss-selector-parser: 7.1.8
 
   postcss-font-variant@5.0.0(postcss@8.5.12):
     dependencies:
@@ -25814,10 +25807,10 @@ snapshots:
 
   postcss-nesting@14.0.0(postcss@8.5.12):
     dependencies:
-      '@csstools/selector-resolve-nested': 4.0.0(postcss-selector-parser@7.1.1)
-      '@csstools/selector-specificity': 6.0.0(postcss-selector-parser@7.1.1)
+      '@csstools/selector-resolve-nested': 4.0.0(postcss-selector-parser@7.1.8)
+      '@csstools/selector-specificity': 6.0.0(postcss-selector-parser@7.1.8)
       postcss: 8.5.12
-      postcss-selector-parser: 7.1.1
+      postcss-selector-parser: 7.1.8
 
   postcss-opacity-percentage@3.0.0(postcss@8.5.12):
     dependencies:
@@ -25917,7 +25910,7 @@ snapshots:
   postcss-pseudo-class-any-link@11.0.0(postcss@8.5.12):
     dependencies:
       postcss: 8.5.12
-      postcss-selector-parser: 7.1.1
+      postcss-selector-parser: 7.1.8
 
   postcss-replace-overflow-wrap@4.0.0(postcss@8.5.12):
     dependencies:
@@ -25926,11 +25919,10 @@ snapshots:
   postcss-selector-not@9.0.0(postcss@8.5.12):
     dependencies:
       postcss: 8.5.12
-      postcss-selector-parser: 7.1.1
+      postcss-selector-parser: 7.1.8
 
-  postcss-selector-parser@7.1.1:
+  postcss-selector-parser@7.1.8:
     dependencies:
-      cssesc: 3.0.0
       util-deprecate: 1.0.2
 
   postcss-value-parser@4.2.0: {}
