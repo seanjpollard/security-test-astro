@@ -9216,8 +9216,8 @@ packages:
   '@mixmark-io/domino@2.2.0':
     resolution: {integrity: sha512-Y28PR25bHXUg88kCV7nivXrP2Nj2RueZ3/l/jdx6J9f8J4nsEGcgX0Qe6lt7Pa+J79+kPiJU3LguR6O/6zrLOw==}
 
-  '@modelcontextprotocol/sdk@1.29.0':
-    resolution: {integrity: sha512-zo37mZA9hJWpULgkRpowewez1y6ML5GsXJPY8FI0tBBCd77HEvza4jDqRKOXgHNn867PVGCyTdzqpz0izu5ZjQ==}
+  '@modelcontextprotocol/sdk@1.32.2':
+    resolution: {integrity: sha512-SWsVtH/0vULSQStoZ6xxH2K09Li8fXYTMC64ZeogCdpZ3XSi1eCPOByV1OpuJxuI3OcmHhosDWYyii07tpPsLw==}
     engines: {node: '>=18'}
     peerDependencies:
       '@cfworker/json-schema': ^4.1.1
@@ -18021,19 +18021,19 @@ snapshots:
       '@clack/core': 1.1.0
       sisteransi: 1.0.5
 
-  '@cloudflare/codemode@0.3.4(@modelcontextprotocol/sdk@1.29.0)(zod@4.3.6)':
+  '@cloudflare/codemode@0.3.4(@modelcontextprotocol/sdk@1.32.2)(zod@4.3.6)':
     dependencies:
       '@types/json-schema': 7.0.15
       acorn: 8.16.0
     optionalDependencies:
-      '@modelcontextprotocol/sdk': 1.29.0
+      '@modelcontextprotocol/sdk': 1.32.2
       zod: 4.3.6
 
   '@cloudflare/kv-asset-handler@0.4.2': {}
 
-  '@cloudflare/shell@0.3.6(@modelcontextprotocol/sdk@1.29.0)(zod@4.3.6)':
+  '@cloudflare/shell@0.3.6(@modelcontextprotocol/sdk@1.32.2)(zod@4.3.6)':
     dependencies:
-      '@cloudflare/codemode': 0.3.4(@modelcontextprotocol/sdk@1.29.0)(zod@4.3.6)
+      '@cloudflare/codemode': 0.3.4(@modelcontextprotocol/sdk@1.32.2)(zod@4.3.6)
       isomorphic-git: 1.37.6
     transitivePeerDependencies:
       - '@modelcontextprotocol/sdk'
@@ -18910,11 +18910,11 @@ snapshots:
 
   '@flue/sdk@0.3.10(typescript@5.9.3)(wrangler@4.83.0)(ws@8.19.0)(zod@4.3.6)':
     dependencies:
-      '@cloudflare/shell': 0.3.6(@modelcontextprotocol/sdk@1.29.0)(zod@4.3.6)
+      '@cloudflare/shell': 0.3.6(@modelcontextprotocol/sdk@1.32.2)(zod@4.3.6)
       '@hono/node-server': 1.19.14(hono@4.12.16)
-      '@mariozechner/pi-agent-core': 0.71.1(@modelcontextprotocol/sdk@1.29.0)(ws@8.19.0)(zod@4.3.6)
-      '@mariozechner/pi-ai': 0.71.1(@modelcontextprotocol/sdk@1.29.0)(ws@8.19.0)(zod@4.3.6)
-      '@modelcontextprotocol/sdk': 1.29.0
+      '@mariozechner/pi-agent-core': 0.71.1(@modelcontextprotocol/sdk@1.32.2)(ws@8.19.0)(zod@4.3.6)
+      '@mariozechner/pi-ai': 0.71.1(@modelcontextprotocol/sdk@1.32.2)(ws@8.19.0)(zod@4.3.6)
+      '@modelcontextprotocol/sdk': 1.32.2
       '@valibot/to-json-schema': 1.5.0(valibot@1.2.0(typescript@5.9.3))
       esbuild: 0.25.5
       hono: 4.12.16
@@ -18939,14 +18939,14 @@ snapshots:
 
   '@fontsource/montserrat@5.2.8': {}
 
-  '@google/genai@1.51.0(@modelcontextprotocol/sdk@1.29.0)':
+  '@google/genai@1.51.0(@modelcontextprotocol/sdk@1.32.2)':
     dependencies:
       google-auth-library: 10.6.2
       p-retry: 4.6.2
       protobufjs: 7.5.6
       ws: 8.19.0
     optionalDependencies:
-      '@modelcontextprotocol/sdk': 1.29.0
+      '@modelcontextprotocol/sdk': 1.32.2
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -19236,9 +19236,9 @@ snapshots:
       - encoding
       - supports-color
 
-  '@mariozechner/pi-agent-core@0.71.1(@modelcontextprotocol/sdk@1.29.0)(ws@8.19.0)(zod@4.3.6)':
+  '@mariozechner/pi-agent-core@0.71.1(@modelcontextprotocol/sdk@1.32.2)(ws@8.19.0)(zod@4.3.6)':
     dependencies:
-      '@mariozechner/pi-ai': 0.71.1(@modelcontextprotocol/sdk@1.29.0)(ws@8.19.0)(zod@4.3.6)
+      '@mariozechner/pi-ai': 0.71.1(@modelcontextprotocol/sdk@1.32.2)(ws@8.19.0)(zod@4.3.6)
       typebox: 1.1.37
     transitivePeerDependencies:
       - '@modelcontextprotocol/sdk'
@@ -19249,11 +19249,11 @@ snapshots:
       - ws
       - zod
 
-  '@mariozechner/pi-ai@0.71.1(@modelcontextprotocol/sdk@1.29.0)(ws@8.19.0)(zod@4.3.6)':
+  '@mariozechner/pi-ai@0.71.1(@modelcontextprotocol/sdk@1.32.2)(ws@8.19.0)(zod@4.3.6)':
     dependencies:
       '@anthropic-ai/sdk': 0.91.1(zod@4.3.6)
       '@aws-sdk/client-bedrock-runtime': 3.1041.0
-      '@google/genai': 1.51.0(@modelcontextprotocol/sdk@1.29.0)
+      '@google/genai': 1.51.0(@modelcontextprotocol/sdk@1.32.2)
       '@mistralai/mistralai': 2.2.1
       chalk: 5.6.2
       openai: 6.26.0(ws@8.19.0)(zod@4.3.6)
@@ -19323,7 +19323,7 @@ snapshots:
 
   '@mixmark-io/domino@2.2.0': {}
 
-  '@modelcontextprotocol/sdk@1.29.0':
+  '@modelcontextprotocol/sdk@1.32.2':
     dependencies:
       '@hono/node-server': 1.19.14(hono@4.12.16)
       ajv: 8.20.0
