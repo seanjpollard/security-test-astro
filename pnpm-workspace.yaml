@@ -35,6 +35,7 @@ overrides:
   # incompatible with the one the extension passes to the `activate*` helpers.
   '@volar/vscode>vscode-languageclient': '^11.0.0'
   'docs>@lunariajs/core': 'https://pkg.pr.new/lunariajs/lunaria/@lunariajs/core@502ada46073a7f0b003949d78870cefb9290a54f'
+  'serialize-javascript@6.0.2': '7.1.3' # lockwright: GHSA-5c6j-r48x-rmvq, GHSA-gfhx-hw2g-v5hg, GHSA-m5mm-p8h7-m29v, GHSA-qj8w-gfj5-8c6v
 
 # Wait until three days after release to install new versions of packages
 minimumReleaseAge: 4320
