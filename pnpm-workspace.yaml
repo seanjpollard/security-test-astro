@@ -35,6 +35,9 @@ overrides:
   # incompatible with the one the extension passes to the `activate*` helpers.
   '@volar/vscode>vscode-languageclient': '^11.0.0'
   'docs>@lunariajs/core': 'https://pkg.pr.new/lunariajs/lunaria/@lunariajs/core@502ada46073a7f0b003949d78870cefb9290a54f'
+  'minimatch@10.2.6': '11.0.1' # lockwright: GHSA-23c5-xmqv-rm74, GHSA-3ppc-4f35-3m26, GHSA-7r86-cg39-jmmj, GHSA-g3hv-75wg-m249
+  'minimatch@9.0.9': '11.0.1' # lockwright: GHSA-23c5-xmqv-rm74, GHSA-3ppc-4f35-3m26, GHSA-7r86-cg39-jmmj, GHSA-g3hv-75wg-m249
+  'minimatch@3.1.5': '11.0.1' # lockwright: GHSA-23c5-xmqv-rm74, GHSA-3ppc-4f35-3m26, GHSA-7r86-cg39-jmmj, GHSA-g3hv-75wg-m249
 
 # Wait until three days after release to install new versions of packages
 minimumReleaseAge: 4320
