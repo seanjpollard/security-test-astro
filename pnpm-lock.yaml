@@ -9,6 +9,8 @@ overrides:
   '@types/node@22': ^22.19.0
   '@volar/vscode>vscode-languageclient': ^11.0.0
   docs>@lunariajs/core: https://pkg.pr.new/lunariajs/lunaria/@lunariajs/core@502ada46073a7f0b003949d78870cefb9290a54f
+  diff@7.0.0: 8.0.3
+  diff@4.0.4: 8.0.3
 
 patchedDependencies:
   '@volar/language-service@2.4.30': 09741a82cb00ac74eaaadd70420ac669b56a8df2b1b926de1cf25500a15a6b5a
@@ -12815,12 +12817,8 @@ packages:
   devlop@1.1.0:
     resolution: {integrity: sha512-RWmIqhcFf1lRYBvNmr7qTNuyCt/7/ns2jbpp1+PalgE/rDQcBT0fioSMUpJ93irlUhC5hrg4cYqe6U+0ImW0rA==}
 
-  diff@4.0.4:
-    resolution: {integrity: sha512-X07nttJQkwkfKfvTPG/KSnE2OMdcUCao6+eXF3wmnIQRn2aPAHH3VxDbDOdegkd6JbPsXqShpvEOHfAT+nCNwQ==}
-    engines: {node: '>=0.3.1'}
-
-  diff@7.0.0:
-    resolution: {integrity: sha512-PJWHUb1RFevKCwaFA9RlG5tCd+FO5iRh9A8HEtkmBH2Li03iJriB6m6JIN4rGz3K3JLawI7/veA1xzRKP6ISBw==}
+  diff@8.0.3:
+    resolution: {integrity: sha512-qejHi7bcSD4hQAZE0tNAawRK1ZtafHDmMTMkrrIGgSLl7hTnQHmKCeB45xAcbfTqK2zowkM3j3bHt/4b/ARbYQ==}
     engines: {node: '>=0.3.1'}
 
   diff@8.0.4:
@@ -22268,9 +22266,7 @@ snapshots:
     dependencies:
       dequal: 2.0.3
 
-  diff@4.0.4: {}
-
-  diff@7.0.0: {}
+  diff@8.0.3: {}
 
   diff@8.0.4: {}
 
@@ -24539,7 +24535,7 @@ snapshots:
       browser-stdout: 1.3.1
       chokidar: 4.0.3
       debug: 4.4.3(supports-color@8.1.1)
-      diff: 7.0.0
+      diff: 8.0.3
       escape-string-regexp: 4.0.0
       find-up: 5.0.0
       glob: 10.5.0
@@ -26987,7 +26983,7 @@ snapshots:
       bottleneck: 2.19.5
       chalk: 2.4.2
       commander: 9.5.0
-      diff: 4.0.4
+      diff: 8.0.3
       glob: 7.2.3
       vscode-oniguruma: 1.7.0
       vscode-textmate: 7.0.4
